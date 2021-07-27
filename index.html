@@ -1,0 +1,62 @@
+<!--
+ Copyright 2021 sfchi
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+     http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Rotating Navigation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1 class="title">Heading 1</h1>
+            <small class="subtitle">Favour Samuel</small>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi cum voluptas deleniti quis rerum blanditiis quas minima! Sint, quod iusto. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur totam repudiandae cumque?</p>
+
+            <h2 class="">Heading with Image</h2>
+            <img src="image.jpg" alt="Random Image" class="image">
+            <p class="image-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            </p>
+        </div>
+    </div>
+
+    <nav class="nav">
+        <ul class="lists">
+            <li class="list-item"><i class="fas fa-home"></i><a href="#" class="list-link">Home</a></li>
+            <li class="list-item"><i class="fas fa-user-alt"></i><a href="#" class="list-link">About</a></li>
+            <li class="list-item"><i class="fas fa-envelope"></i><a href="#" class="list-link">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="index.js"></script>
+</body>
+</html>
